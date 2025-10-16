@@ -22,9 +22,25 @@ Permite canviar como se muestran elementos.
 
 `display: inline-block` sirve para convertir un elemento inline en un elemento en bloque. De esta manera, podemos añadir propiedades de bloque a un elemento inline y que, aún así, siga siendo en línea.
 
-### calc()
+### `calc()`
 
 Sirve para hacer cálculos en CSS. 
 
 Si queremos que un elemento tenga un ancho del 100% menos 50 píxeles, podemos usar `width: calc(100% - 50px);`
+
+### `margin: 0 auto`
+
+Sirve para centrar un elemento horizontalmente.
+
+### `display: flex`
+
+Sirve para hacer que los elementos hijos de un contenedor se distribuyan de manera flexible. Permite alinear y distribuir espacio entre los elementos de una manera más eficiente.
+
+### `flex-direction`
+
+Permite definir la dirección en la que se distribuyen los elementos hijos dentro de un contenedor flex. Puede ser `row` (fila), `column` (columna), `row-reverse` (fila inversa) o `column-reverse` (columna inversa).
+
+### `order`
+
+Permite cambiar el orden en el que se muestran los elementos hijos dentro de un contenedor flex. Por defecto, todos los elementos tienen un `order` de 0. Si queremos que un elemento aparezca primero, podemos darle un `order` negativo.
 

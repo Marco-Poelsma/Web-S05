@@ -25,3 +25,28 @@ footer{
 h2 {
     display: block;
 }
+
+section {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    border: 3px solid navy;
+}
+
+section div.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section div.flex > div {
+    display: flex;
+    border: 1px solid red;
+    height: 100px;
+    width: 98px;
+}
+
+section div.flex > div:nth-child(3) {
+    background-color: lightgreen;
+    order: -1;
+}
