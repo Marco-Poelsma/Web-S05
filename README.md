@@ -24,4 +24,7 @@ Permite canviar como se muestran elementos.
 
 ### calc()
 
-Sirve para calcular. 
+Sirve para hacer cálculos en CSS. 
+
+Si queremos que un elemento tenga un ancho del 100% menos 50 píxeles, podemos usar `width: calc(100% - 50px);`
+

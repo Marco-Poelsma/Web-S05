@@ -1,0 +1,27 @@
+:root {
+    --height-header: 50px;
+    --height-footer: 30px;
+}
+
+
+main {
+    height: calc(100vh - var(--height-header) - var(--height-footer));
+    background-color: lightblue;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    height: var(--height-header);
+}
+
+footer{
+    height: var(--height-footer)    ;
+    background-color: lightgray;
+}
+
+h2 {
+    display: block;
+}
