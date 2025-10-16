@@ -2,6 +2,8 @@
 
 Para ir al ejercicio, haz clic [aquí](https://github.com/Marco-Poelsma/Web_S05-Ex)
 
+---
+
 ## CSS: propiedades
 
 ### `text-decoration`
