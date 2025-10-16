@@ -8,7 +8,7 @@ Para ir al ejercicio, haz clic [aquí](https://github.com/Marco-Poelsma/Web_S05-
 
 ### `text-decoration`
 
-Sirve, entre otras cosas, para subrallar texto.
+Sirve, entre otras cosas, para subrayar texto.
 
 ### `box-sizing`
 
